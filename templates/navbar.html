@@ -1,0 +1,25 @@
+{% load static %}
+
+<nav class="navbar">
+			<div class="navbar-inner">
+				<div class="container btnNavbarWrapper" data-toggle="collapse" data-target=".nav-collapse">
+					<a class="btn btn-navbar">
+						<img  src="{% static 'img/white_textlogo_transparent_background.png' %}"  data-id="mobile_nav_minus" id="minus" class="load-png-or-svg" alt="open navigation">
+						<img  src="{% static 'img/white_textlogo_transparent_background.png' %}" data-id="mobile_nav_plus" id="plus" class="load-png-or-svg" alt="close navigation">
+					</a>
+					<a class="brand hidden-phone" href="#home">
+						<img  src="{% static 'img/white_textlogo_transparent_background.png' %}" data-id="logo"  alt="dga logo">
+						<img  src="{% static 'img/white_textlogo_transparent_background.png' %}" data-id="logo_hover" alt="dga logo hover">
+					</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav pull-right relative">
+							<div id="nav-strip"></div>
+							<li><a href="#about" id="1" class="span1">About</a></li>
+							<li><a href="#process" id="2" class="span1">Process</a></li>
+							<li><a href="#services" id="3" class="span1">Services</a></li>
+							<li><a href="#contact" id="4" class="span1">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
